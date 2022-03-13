@@ -7,6 +7,14 @@ public class PrintDemo {
         float f = 33.44f;
         char c = 'd';
 
+        //Prints the string argument and a new line
+        System.out.println("Deepak");
+        System.out.println("Somasundaram");
+
+        //Prints the string argument and no new line is added
+        System.out.print("Comedian");
+        System.out.print("Coder");
+        System.out.print("\n");
 
         // Precedence is from left to right. But before concatenation could happen, the expression inside brackets is calculated first.
         System.out.println("Number is " + (a + b));
