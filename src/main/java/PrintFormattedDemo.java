@@ -127,7 +127,20 @@ public class PrintFormattedDemo {
         //Here %s points to the String argument "Comedians" and %n points to new line
         System.out.printf("Hello %s! %n", "Comedians");
 
+        // %b - boolean %B - BOOLEAN
+        System.out.printf("%b %n","true"); // true
 
+        System.out.printf("%b %n", true); // true
+
+        System.out.printf("%b %n", 0); // true
+
+        System.out.printf("%B %n", -1); // TRUE
+
+        System.out.printf("%B %n", null); // FALSE
+
+        System.out.printf("%b %n", false); // false
+
+        System.out.printf("%B %n", "false"); // TRUE
 
 
     }
